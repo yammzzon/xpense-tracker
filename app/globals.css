@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 nav {
-    @apply bg-green-800 space-x-4 absolute w-screen z-50;
+    @apply bg-green-900 space-x-4 fixed w-screen z-50;
 }
 
 nav a{
