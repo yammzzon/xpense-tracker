@@ -2,6 +2,10 @@ import React from 'react'
 
 export default function Dashboard() {
     return (
-        <div>Dashboard</div>
-    )
+        <>
+            <main className='bg-green-200 h-screen w-screen'>
+                Hello World
+            </main>
+        </>
+    );
 }
