@@ -20,6 +20,7 @@ export default function Home() {
           </svg>
         </div>
       </Link>
+      
     </div>
   );
 }

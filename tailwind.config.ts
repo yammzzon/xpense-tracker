@@ -9,6 +9,15 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
+
+        // ITO YUNG COLOR PALETTE SA CANVA
+        one: "#ecf39e",
+        two: "#90a955",
+        three: "#4f772d",
+        four: "#31572c",
+        five: "#132a13",
+        // ==============================
+
         background: "var(--background)",
         foreground: "var(--foreground)",
       },

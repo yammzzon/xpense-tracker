@@ -3,14 +3,23 @@ import WalletBar from '../components/WalletBar';
 
 export default function Dashboard() {
     return (
-        <main className='pt-6 h-screen bg-green-600'>
-            <div className='flex justify-center items-center px-5 space-x-5 h-1/6 py-2'>
+        <main className='pt-6 h-screen'>
+            {/* Profile + Balance + Add + Menu */}
+            <div className='bg-one w-full fixed flex justify-center items-center px-5 md:px-10 lg:px-20 space-x-5 h-20 py-2'>
                 <img src="/happy.png" alt='user profile picture' className='rounded-full h-full' />
-                <div className='flex bg-green-700 rounded-xl w-full h-full justify-between items-center px-5'>
-                    <h1>$5000</h1>
-                    <button className='bg-green-400 rounded-xl h-1/2 px-5'>Add</button>
+                <div className='flex bg-two rounded-xl w-full h-full justify-between items-center px-5'>
+                    <p className='text-four text-2xl font-bold'>$5,000.00</p>
+                    <button className='bg-three rounded-xl h-1/2 px-5 text-one'>Add</button>
                 </div>
-                <img src="/stack.png" className='rounded-full h-full' />
+                <img src="/more.png" alt="menu bar" className='h-full' />
+            </div>
+            {/* PANELS */}
+            <div className='bg-one overflow-y-scroll grid gap-5 sm:grid-cols-2 lg:grid-cols-3 md:px-10 lg:px-20 pt-24 pb-12 px-5 '>
+               <div className='bg-two rounded-xl w-full h-64'/>
+               <div className='bg-two rounded-xl w-full h-64'/>
+               <div className='bg-two rounded-xl w-full h-64'/>
+               <div className='bg-two rounded-xl w-full h-64'/>
+               <div className='bg-two rounded-xl w-full h-64'/>
             </div>
             <WalletBar />
         </main>
