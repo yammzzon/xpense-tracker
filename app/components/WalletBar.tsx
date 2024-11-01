@@ -7,6 +7,7 @@ export default function WalletBar() {
             <div className='flex flex-row z-50 space-x-2 pl-5'>
                 {user.wallets.map((wallet,i) => (
                     <button
+                        key = {wallet.walletID}
                         className={`rounded-b-2xl w-36 text-center text-four 
                         ${i===user.selectedWallet ? 'bg-one' : 'bg-two'}`
                     }>{wallet.walletName}</button>
