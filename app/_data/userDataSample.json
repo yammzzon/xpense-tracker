@@ -1,0 +1,17 @@
+{
+    "username": "Add852",
+    "password": "root",
+    "wallets": [
+        {   
+            "walletID": 1,
+            "walletName": "WOAH",
+            "walletBalance": 5000
+        },
+        {
+            "walletID": 2,
+            "walletName": "AASASAS",
+            "walletBalance": 12000
+        }
+    ],
+    "selectedWallet": 1
+}
