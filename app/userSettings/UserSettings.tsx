@@ -2,6 +2,7 @@
 
 import React, { useState, ChangeEvent, FormEvent } from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 
 interface FormData {
   firstName: string;
@@ -63,7 +64,7 @@ const UserSettings: React.FC = () => {
 
       <div className="container mx-auto max-w-lg md:max-w-4xl bg-white bg-opacity-90 rounded-xl shadow-lg overflow-hidden flex flex-col md:flex-row md:h-auto transition-transform transform hover:scale-105">
         <div className="p-8 md:w-1/3 flex flex-col items-center bg-teal-600 text-white shadow-md transition-shadow duration-300 hover:shadow-lg">
-          <img
+          <Image
             src={profilePic || "https://img.icons8.com/ios-glyphs/90/ffffff/user--v1.png"}
             alt="Profile"
             className="w-24 h-24 md:w-32 md:h-32 rounded-full border-4 border-white object-cover mb-4"

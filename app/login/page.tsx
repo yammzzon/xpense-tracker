@@ -13,7 +13,7 @@ export default function Login() {
             <input required placeholder="Password" type="password" className="border-4 border-green-950 rounded-2xl bg-green-900 text-lg text-gray-100 m-4 p-2"/><br />
             <input type="submit" value="LOGIN" className="bg-green-800 rounded-md text-lg text-gray-100 font-bold m-4 w-40 p-2 hover:bg-green-600 transition ease-out duration-500"/><br />
             <Link rel="stylesheet" href="/login/forgotpassword" className="underline text-blue-100"> Forgot password?</Link><hr className="rounded-full bg-gray-100 m-3 md:h-1" />
-            <h2 className="text-lg text-gray-100 font-semibold">Don&apos;t have an account yet?</h2><br />
+            <h2 className="text-lg text-gray-100 font-semibold">Don't have an account yet?</h2><br />
             <Link rel="stylesheet" href="/register" className=" bg-blue-900 rounded-full text-xl text-gray-100 font-semibold p-2" >SIGN IN </Link>
           </form>
       </div>
