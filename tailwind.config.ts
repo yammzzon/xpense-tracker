@@ -18,6 +18,12 @@ const config: Config = {
         five: "#132a13",
         // ==============================
 
+        // SIGN UP PAGE
+        lightGreen: '#003F34',
+        darkGreen: '#08251f',
+        confirmGreen: "#1a664d",
+        // ==============================
+
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
