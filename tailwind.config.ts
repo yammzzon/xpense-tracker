@@ -8,6 +8,10 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      backgroundImage: {
+        'signup_bg': "url('/signup_bg.png')",
+      },
+
       colors: {
 
         // ITO YUNG COLOR PALETTE SA CANVA
