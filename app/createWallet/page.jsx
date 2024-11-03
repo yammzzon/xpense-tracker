@@ -5,4 +5,3 @@ export default function createWallet() {
     <main><h1>createWallet</h1></main>
   )
 }
-/*create wallet page*/
